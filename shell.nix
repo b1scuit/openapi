@@ -9,6 +9,6 @@ stdenv.mkDerivation {
     ];
 
     shellHook = ''
-      echo "Go Shell" | cowsay | lolcat
+      echo "Open API project shell (Golang)" | cowsay | lolcat
     '';
 }
